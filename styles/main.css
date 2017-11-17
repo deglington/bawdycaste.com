@@ -1,27 +1,25 @@
 @font-face {
-    font-family: "f13";
-    src: url("https://bawdycaste.com/fonts/F13.ttf") format('truetype');
+  font-family: "f13";
+  src: url("https://bawdycaste.com/fonts/F13.ttf") format("truetype");
 }
 @font-face {
-    font-family: "sbitn";
-    src: url("https://bawdycaste.com/fonts/SBITN.ttf") format('truetype');
+  font-family: "sbitn";
+  src: url("https://bawdycaste.com/fonts/SBITN.ttf") format("truetype");
 }
 @font-face {
-    font-family: "ss";
-    src: url("https://bawdycaste.com/fonts/SS.ttf") format('truetype');
+  font-family: "ss";
+  src: url("https://bawdycaste.com/fonts/SS.ttf") format("truetype");
 }
 @font-face {
-    font-family: "fofbb";
-    src: url("https://bawdycaste.com/fonts/FOFBB.ttf") format('truetype');
+  font-family: "fofbb";
+  src: url("https://bawdycaste.com/fonts/FOFBB.ttf") format("truetype");
 }
-
-body{
-	background-color: black;
-	// background-image: url("/images/bg-1.png");
-	background-repeat: no-repeat;
-	background-clip: border-box;
-	background-size: contain;
-	color: red;
+body {
+  background-color: black;
+  background-repeat: no-repeat;
+  background-clip: border-box;
+  background-size: contain;
+  color: red;
 }
 
 .browserupgrade {
@@ -77,10 +75,11 @@ body {
 
 /* Main marketing message and sign up button */
 .jumbotron {
-	padding-top: 5%;
+  padding-top: 5%;
   text-align: center;
   border-bottom: .05rem solid #e5e5e5;
 }
+
 .jumbotron .btn {
   padding: .75rem 1.5rem;
   font-size: 1.5rem;
@@ -90,6 +89,7 @@ body {
 .marketing {
   margin: 3rem 0;
 }
+
 .marketing p + h4 {
   margin-top: 1.5rem;
 }
@@ -103,45 +103,64 @@ body {
     padding-right: 0;
     padding-left: 0;
   }
+
   /* Space out the masthead */
   .header {
     margin-bottom: 2rem;
   }
+
   /* Remove the bottom border on the jumbotron for visual effect */
   .jumbotron {
     border-bottom: 0;
   }
 }
-
-// Fonts and Shit
-.fofbb{font-family: "fofbb";}
-h1,h2,h3,h4,h5,h6{font-family:"sbitn";}
-p{font-family:"f13";}
-.bawdycaste{font-family:"ss";}
-.drop_shadow{text-shadow: 10px 10px 5px #888888;}
-
-// Social Media Links Shit
-.social a{font-size: 2em; margin: auto 11%;}
-.social a{
-    color: black;
+.fofbb {
+  font-family: "fofbb";
 }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "sbitn";
+}
+
+p {
+  font-family: "f13";
+}
+
+.bawdycaste {
+  font-family: "ss";
+}
+
+.drop_shadow {
+  text-shadow: 10px 10px 5px #888888;
+}
+
+.social a {
+  font-size: 2em;
+  margin: auto 11%;
+}
+
+.social a {
+  color: black;
+}
+
 .social .fa-facebook:hover {
-    color: #4060A5;
+  color: #4060A5;
 }
 
 .social .fa-twitter:hover {
-    color: #00ABE3;
+  color: #00ABE3;
 }
 
 .social .fa-google-plus:hover {
-    color: #e64522;
+  color: #e64522;
 }
 
 .social .fa-linkedin:hover {
-    color: #0094BC;
+  color: #0094BC;
 }
+
 #video-background {
-/*  making the video fullscreen  */
+  /*  making the video fullscreen  */
   position: fixed;
   right: 0;
   bottom: 0;

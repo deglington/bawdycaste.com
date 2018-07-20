@@ -1,18 +1,18 @@
 @font-face {
   font-family: "f13";
-  src: url("http://bawdycaste.com/styles/F13.ttf") format("truetype");
+  src: url("https://bawdycaste.com/styles/F13.ttf") format("truetype");
 }
 @font-face {
   font-family: "sbitn";
-  src: url("http://bawdycaste.com/styles/SBITN.ttf") format("truetype");
+  src: url("https://bawdycaste.com/styles/SBITN.ttf") format("truetype");
 }
 @font-face {
   font-family: "ss";
-  src: url("http://bawdycaste.com/styles/SS.ttf") format("truetype");
+  src: url("https://bawdycaste.com/styles/SS.ttf") format("truetype");
 }
 @font-face {
   font-family: "fofbb";
-  src: url("http://bawdycaste.com/styles/FOFBB.ttf") format("truetype");
+  src: url("https://bawdycaste.com/styles/FOFBB.ttf") format("truetype");
 }
 body {
   background-color: black;

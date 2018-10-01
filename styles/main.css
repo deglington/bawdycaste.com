@@ -149,10 +149,9 @@ h6 {
     font-family: "fofbb";
 }
 
-
-/* p {
+.f13 {
     font-family: "f13";
-} */
+}
 
 .bawdycaste {
     font-family: "ss";
@@ -164,7 +163,7 @@ h6 {
 
 .social a {
     font-size: 2em;
-    margin: auto 11%;
+    margin: auto 4%;
 }
 
 .social a {

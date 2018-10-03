@@ -164,26 +164,8 @@ h6 {
 .social a {
     font-size: 2em;
     margin: auto 4%;
-}
-
-.social a {
     color: black;
-}
-
-.social .fa-facebook:hover {
-    color: #4060A5;
-}
-
-.social .fa-twitter:hover {
-    color: #00ABE3;
-}
-
-.social .fa-google-plus:hover {
-    color: #e64522;
-}
-
-.social .fa-instagram:hover {
-    color: #0094BC;
+    text-decoration: none;
 }
 
 #video-background {

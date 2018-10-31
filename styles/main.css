@@ -4,6 +4,11 @@
 }
 
 @font-face {
+    font-family: "DF";
+    src: url("/styles/DF.ttf") format("truetype");
+}
+
+@font-face {
     font-family: "sbitn";
     src: url("https://bawdycaste.com/styles/SBITN.ttf") format("truetype");
 }
@@ -88,6 +93,10 @@ body {
 
 .container-narrow>hr {
     margin: 2rem 0;
+}
+
+button {
+    font-family: "f13";
 }
 
 
@@ -182,4 +191,12 @@ h6 {
 
 .carousel-item {
     height: 428px;
+}
+
+.df {
+    font-family: "DF";
+}
+
+.sbitn {
+    font-family: "sbitn";
 }

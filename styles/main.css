@@ -22,6 +22,14 @@
     font-family: "fofbb";
     src: url("https://bawdycaste.com/styles/FOFBB.ttf") format("truetype");
 }
+@font-face {
+    font-family: TBL;
+    src: url("/styles/TBL.ttf") format("truetype");
+}
+@font-face {
+    font-family: TBL_1;
+    src: url(/styles/TBL_1.TTF) format("truetype");
+}
 
 body {
     background-color: black;
@@ -168,9 +176,12 @@ h6 {
 .bawdycaste {
     font-family: "ss";
 }
-
+.image-shadow{
+    box-shadow: 10px 10px 10px #777;
+}
 .drop_shadow {
     text-shadow: 10px 10px 5px #888888;
+    
 }
 
 .social a {
@@ -202,4 +213,13 @@ h6 {
 
 .sbitn {
     font-family: "sbitn";
+}
+.TBL
+{
+    font-family: "TBL";
+}
+.TBL_1
+{
+    font-family: "TBL_1" ;
+   
 }

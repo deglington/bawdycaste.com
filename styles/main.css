@@ -22,6 +22,14 @@
     font-family: "fofbb";
     src: url("https://bawdycaste.com/styles/FOFBB.ttf") format("truetype");
 }
+@font-face {
+    font-family: TBL;
+    src: url("/styles/TBL.ttf") format("truetype");
+}
+@font-face {
+    font-family: TBL_1;
+    src: url(/styles/TBL_1.TTF) format("truetype");
+}
 
 body {
     background-color: black;
@@ -47,6 +55,61 @@ body {
 }
 
 
+  img.absolute_1 {
+    position: absolute ;
+    top: 21rem;
+    right: 31rem;
+    z-index: 1;
+   
+  }
+  
+  img.absolute_2 {
+    position: absolute ;
+    top: 20rem;
+    right: 3rem;
+    z-index: 1;
+   
+  }
+  img.absolute_3 {
+    position: absolute ;
+    top: 12rem;
+    right: 35rem;
+    z-index: 1;
+   
+  }
+  img.absolute_4 {
+    position: absolute ;
+    top: 15rem;
+    right: 32rem;
+    z-index: 2;
+   
+  }
+  img.absolute_5 {
+    position: absolute ;
+    top: 10rem;
+    right: 1rem;
+    z-index: 1;
+   
+  }
+  img.absolute_6 {
+    position: absolute ;
+    top: 15rem;
+    right: 5rem;
+    z-index: 1;
+   
+  }
+  img.absolute_7 {
+    position: absolute ;
+    top: 10rem;
+    right: 30rem;
+    z-index: 1;
+    animation-delay: 500ms ;
+    animation-direction: alternate-reverse;
+    
+
+    
+   
+  }
 /* Everything but the jumbotron gets side spacing for mobile first views */
 
 .header,
@@ -168,9 +231,12 @@ h6 {
 .bawdycaste {
     font-family: "ss";
 }
-
+.image-shadow{
+    box-shadow: 10px 10px 10px #777;
+}
 .drop_shadow {
     text-shadow: 10px 10px 5px #888888;
+    
 }
 
 .social a {
@@ -202,4 +268,15 @@ h6 {
 
 .sbitn {
     font-family: "sbitn";
+}
+.TBL
+{
+    font-family: "TBL";
+    z-index: 2;
+}
+.TBL_1
+{
+    font-family: "TBL_1" ;
+    z-index: 2;
+   
 }

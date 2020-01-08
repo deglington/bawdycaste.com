@@ -22,10 +22,12 @@
     font-family: "fofbb";
     src: url("https://bawdycaste.com/styles/FOFBB.ttf") format("truetype");
 }
+
 @font-face {
     font-family: TBL;
     src: url("/styles/TBL.ttf") format("truetype");
 }
+
 @font-face {
     font-family: TBL_1;
     src: url(/styles/TBL_1.TTF) format("truetype");
@@ -54,62 +56,57 @@ body {
     padding-bottom: 1.5rem;
 }
 
-
-  img.absolute_1 {
-    position: absolute ;
-    top: 21rem;
-    right: 31rem;
-    z-index: 1;
-   
-  }
-  
-  img.absolute_2 {
-    position: absolute ;
+img.absolute_1 {
+    position: absolute;
     top: 20rem;
+    right: 10rem;
+    z-index: 1;
+}
+
+img.absolute_2 {
+    position: absolute;
+    top: 15rem;
     right: 3rem;
     z-index: 1;
-   
-  }
-  img.absolute_3 {
-    position: absolute ;
-    top: 12rem;
-    right: 35rem;
-    z-index: 1;
-   
-  }
-  img.absolute_4 {
-    position: absolute ;
-    top: 15rem;
-    right: 32rem;
-    z-index: 2;
-   
-  }
-  img.absolute_5 {
-    position: absolute ;
+}
+
+img.absolute_3 {
+    position: absolute;
     top: 10rem;
+    right: 23rem;
+    z-index: 1;
+}
+
+img.absolute_4 {
+    position: absolute;
+    top: 14rem;
+    right: 27em;
+    z-index: 2;
+}
+
+img.absolute_5 {
+    position: absolute;
+    top: 8rem;
     right: 1rem;
     z-index: 1;
-   
-  }
-  img.absolute_6 {
-    position: absolute ;
-    top: 15rem;
+}
+
+img.absolute_6 {
+    position: absolute;
     right: 5rem;
     z-index: 1;
-   
-  }
-  img.absolute_7 {
-    position: absolute ;
-    top: 10rem;
-    right: 30rem;
-    z-index: 1;
-    animation-delay: 500ms ;
-    animation-direction: alternate-reverse;
-    
+}
 
-    
-   
-  }
+img.absolute_7 {
+    position: absolute;
+    top: 5rem;
+    right: 20rem;
+    z-index: 1;
+    animation-delay: 500ms;
+    animation-direction: alternate-reverse;
+}
+
+
 /* Everything but the jumbotron gets side spacing for mobile first views */
 
 .header,
@@ -145,9 +142,10 @@ body {
     border-top: .05rem solid #e5e5e5;
 }
 
-.footer > div > p:nth-child(2){
+.footer>div>p:nth-child(2) {
     word-wrap: anywhere;
 }
+
 
 /* Customize container */
 
@@ -231,18 +229,19 @@ h6 {
 .bawdycaste {
     font-family: "ss";
 }
-.image-shadow{
+
+.image-shadow {
     box-shadow: 10px 10px 10px #777;
 }
+
 .drop_shadow {
     text-shadow: 10px 10px 5px #888888;
-    
 }
 
 .social a {
     font-size: 2em;
     margin: auto 4%;
-    color: black;
+    color: white;
     text-decoration: none;
 }
 
@@ -269,14 +268,43 @@ h6 {
 .sbitn {
     font-family: "sbitn";
 }
-.TBL
-{
+
+.TBL {
     font-family: "TBL";
     z-index: 2;
 }
-.TBL_1
-{
-    font-family: "TBL_1" ;
+
+.TBL_1 {
+    font-family: "TBL_1";
     z-index: 2;
-   
+}
+
+hr.style-eight {
+    overflow: visible;
+    /* For IE */
+    padding: 0;
+    border: none;
+    border-top: medium double #333;
+    color: #333;
+    text-align: center;
+}
+
+hr.style-eight:after {
+    content: "§";
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background: white;
+}
+
+hr.style-five {
+    border: 0;
+    height: 0;
+    box-shadow: 0 0 10px 1px black;
+}
+
+hr.style-five:after {
+    content: "\00a0";
 }

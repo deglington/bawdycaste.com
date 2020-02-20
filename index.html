@@ -28,9 +28,9 @@
 
     <!-- Facebook Pixel Code -->
     <script>
-        ! function (f, b, e, v, n, t, s) {
+        ! function(f, b, e, v, n, t, s) {
             if (f.fbq) return;
-            n = f.fbq = function () {
+            n = f.fbq = function() {
                 n.callMethod ?
                     n.callMethod.apply(n, arguments) : n.queue.push(arguments)
             };
@@ -65,7 +65,7 @@
                 <h1 class="display-3"><span class="drop_shadow f13">THE BAWDY CASTE</span></h1>
             </div>
 
-            <div id="carouselIndicators" class="carousel slide" data-ride="carousel" style="z-index: 100;">
+            <div id="carouselIndicators" class="carousel slide" data-ride="carousel" style="z-index: 100;" height="50%">
 
                 <div class="carousel-inner" role="listbox">
 
@@ -109,12 +109,15 @@
             <!-- end carousel -->
 
             <br>
-
+            <div class="row">
+                <div class="col">
+                    <h2 class="df text-center">The Rocky Horror Picture Show</h2>
+                </div>
+            </div>
             <div class="row">
 
-                <div id="rocky-horror" class="col">
-                    <h2 class="df">The Rocky Horror Picture Show</h2>
 
+                <div id="balboa" class="col">
                     <div class="col-text-center">
                         <img src="/images/balboa.png" alt="Balboa Theatre">
                         <h4 class="fofbb" style="color:black;margin-top: 0;padding-top: 0;">San Francisco, CA</h4>
@@ -124,16 +127,44 @@
                             <i class="fa fa-ticket" aria-hidden="true"></i>
                         </a>
                         <!-- <a class="btn btn-dark" href="https://www.facebook.com/bawdycaste/events">
-                                <i class="fa fa-facebook" aria-hidden="true"></i>
-                                <span class="fofbb"> event</span>
-                            </a> -->
+                            <i class="fa fa-facebook" aria-hidden="true"></i>
+                            <span class="fofbb"> event</span>
+                        </a> -->
                     </div>
                     <article class="text-black">
                         <h2 class="">February 29th, 2020</h3>
-                            <h3 class="rainbow">Rocky Horror Remains in <span class="rainbow">San Francisco!</span></h3>
                     </article>
                 </div>
 
+                <div id="dnalounge" class="col">
+                    <div class="col-text-center">
+                        <br>
+                        <br>
+                        <img src="/images/dna.gif" width="100%" alt="Balboa Theatre">
+                        <br>
+                        <br>
+                        <br>
+                        <h4 class="fofbb" style="color:black;margin-top: 0;padding-top: 0;">San Francisco, CA</h4>
+                        <a class="btn btn-danger" target="_blank" href="https://ticketing.us.veezi.com/purchase/3804?siteToken=52wkfzmjpwjjfpz3ye7tz8wscg">
+                            <i class="fa fa-ticket" aria-hidden="true"></i>
+                            <span class="fofbb"> Tickets </span>
+                            <i class="fa fa-ticket" aria-hidden="true"></i>
+                        </a>
+                        <!-- <a class="btn btn-dark" href="https://www.facebook.com/bawdycaste/events">
+                            <i class="fa fa-facebook" aria-hidden="true"></i>
+                            <span class="fofbb"> event</span>
+                        </a> -->
+                    </div>
+                    <article class="text-black">
+                        <h2 class="">March 7th, 2020</h3>
+
+                    </article>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <h3 class="rainbow text-center">Rocky Horror Remains in <span class="rainbow">San Francisco!</span></h3>
+                </div>
             </div>
         </div>
 
@@ -177,10 +208,10 @@
 
     <!-- Google Analytics -->
     <script>
-        (function (b, o, i, l, e, r) {
+        (function(b, o, i, l, e, r) {
             b.GoogleAnalyticsObject = l;
             b[l] || (b[l] =
-                function () {
+                function() {
                     (b[l].q = b[l].q || []).push(arguments)
                 });
             b[l].l = +new Date;

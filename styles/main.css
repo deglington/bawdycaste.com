@@ -142,6 +142,7 @@ button {
 /* Responsive: Portrait tablets and up */
 
 @media screen and (min-width: 48em) {
+
     /* Remove the padding we set earlier */
     .header,
     .marketing,
@@ -149,10 +150,12 @@ button {
         padding-right: 0;
         padding-left: 0;
     }
+
     /* Space out the masthead */
     .header {
         margin-bottom: 2rem;
     }
+
     /* Remove the bottom border on the jumbotron for visual effect */
     .jumbotron {
         border-bottom: 0;
@@ -163,7 +166,7 @@ button {
     font-family: "fofbb";
 }
 
-.ss{
+.ss {
     font-family: "ss";
 }
 
@@ -262,92 +265,200 @@ hr.style-five {
 hr.style-five:after {
     content: "\00a0";
 }
-.bo{
- -webkit-animation:rainbow 3s linear infinite;
-}
-@-webkit-keyframes rainbow {
-  from {
-    text-shadow:
-      0.04em 0.04em #ff0000,
-      0.08em 0.08em #ff7f00,
-      0.12em 0.12em #ffff00,
-      0.16em 0.16em #00ff00,
-      0.20em 0.20em #0000ff,
-      0.24em 0.24em #4b0082,
-      0.28em 0.28em #8f00ff;
-  }
-  15% {
-    text-shadow:
-      0.04em 0.04em #8f00ff,
-      0.08em 0.08em #ff0000,
-      0.12em 0.12em #ff7f00,
-      0.16em 0.16em #ffff00,
-      0.20em 0.20em #00ff00,
-      0.24em 0.24em #0000ff,
-      0.28em 0.28em #4b0082;
-  }
-  30% {
-    text-shadow:
-      0.04em 0.04em #4b0082,
-      0.08em 0.08em #8f00ff,
-      0.12em 0.12em #ff0000,
-      0.16em 0.16em #ff7f00,
-      0.20em 0.20em #ffff00,
-      0.24em 0.24em #00ff00,
-      0.28em 0.28em #0000ff;
-  }
-  45% {
-    text-shadow:
-      0.04em 0.04em #0000ff,
-      0.08em 0.08em #4b0082,
-      0.12em 0.12em #8f00ff,
-      0.16em 0.16em #ff0000,
-      0.20em 0.20em #ff7f00,
-      0.24em 0.24em #ffff00,
-      0.28em 0.28em #00ff00;
-  }
-  60% {
-    text-shadow:
-      0.04em 0.04em #00ff00,
-      0.08em 0.08em #0000ff,
-      0.12em 0.12em #4b0082,
-      0.16em 0.16em #8f00ff,
-      0.20em 0.20em #ff0000,
-      0.24em 0.24em #ff7f00,
-      0.28em 0.28em #ffff00;
-  }
-  75% {
-    text-shadow:
-      0.04em 0.04em #ffff00,
-      0.08em 0.08em #00ff00,
-      0.12em 0.12em #0000ff,
-      0.16em 0.16em #4b0082,
-      0.20em 0.20em #8f00ff,
-      0.24em 0.24em #ff0000,
-      0.28em 0.28em #ff7f00;
-  }
-  90% {
-    text-shadow:
-      0.04em 0.04em #ff7f00,
-      0.08em 0.08em #ffff00,
-      0.12em 0.12em #00ff00,
-      0.16em 0.16em #0000ff,
-      0.20em 0.20em #4b0082,
-      0.24em 0.24em #8f00ff,
-      0.28em 0.28em #ff0000;
-  }
-  to {
-    text-shadow:
-      0.04em 0.04em #ff0000,
-      0.08em 0.08em #ff7f00,
-      0.12em 0.12em #ffff00,
-      0.16em 0.16em #00ff00,
-      0.20em 0.20em #0000ff,
-      0.24em 0.24em #4b0082,
-      0.28em 0.28em #8f00ff;
-  }
+
+.bo {
+    -webkit-animation: rainbow 3s linear infinite;
 }
 
-.text-black{
-    color:black;
+@-webkit-keyframes rainbow {
+    from {
+        text-shadow:
+            0.04em 0.04em #ff0000,
+            0.08em 0.08em #ff7f00,
+            0.12em 0.12em #ffff00,
+            0.16em 0.16em #00ff00,
+            0.20em 0.20em #0000ff,
+            0.24em 0.24em #4b0082,
+            0.28em 0.28em #8f00ff;
+    }
+
+    15% {
+        text-shadow:
+            0.04em 0.04em #8f00ff,
+            0.08em 0.08em #ff0000,
+            0.12em 0.12em #ff7f00,
+            0.16em 0.16em #ffff00,
+            0.20em 0.20em #00ff00,
+            0.24em 0.24em #0000ff,
+            0.28em 0.28em #4b0082;
+    }
+
+    30% {
+        text-shadow:
+            0.04em 0.04em #4b0082,
+            0.08em 0.08em #8f00ff,
+            0.12em 0.12em #ff0000,
+            0.16em 0.16em #ff7f00,
+            0.20em 0.20em #ffff00,
+            0.24em 0.24em #00ff00,
+            0.28em 0.28em #0000ff;
+    }
+
+    45% {
+        text-shadow:
+            0.04em 0.04em #0000ff,
+            0.08em 0.08em #4b0082,
+            0.12em 0.12em #8f00ff,
+            0.16em 0.16em #ff0000,
+            0.20em 0.20em #ff7f00,
+            0.24em 0.24em #ffff00,
+            0.28em 0.28em #00ff00;
+    }
+
+    60% {
+        text-shadow:
+            0.04em 0.04em #00ff00,
+            0.08em 0.08em #0000ff,
+            0.12em 0.12em #4b0082,
+            0.16em 0.16em #8f00ff,
+            0.20em 0.20em #ff0000,
+            0.24em 0.24em #ff7f00,
+            0.28em 0.28em #ffff00;
+    }
+
+    75% {
+        text-shadow:
+            0.04em 0.04em #ffff00,
+            0.08em 0.08em #00ff00,
+            0.12em 0.12em #0000ff,
+            0.16em 0.16em #4b0082,
+            0.20em 0.20em #8f00ff,
+            0.24em 0.24em #ff0000,
+            0.28em 0.28em #ff7f00;
+    }
+
+    90% {
+        text-shadow:
+            0.04em 0.04em #ff7f00,
+            0.08em 0.08em #ffff00,
+            0.12em 0.12em #00ff00,
+            0.16em 0.16em #0000ff,
+            0.20em 0.20em #4b0082,
+            0.24em 0.24em #8f00ff,
+            0.28em 0.28em #ff0000;
+    }
+
+    to {
+        text-shadow:
+            0.04em 0.04em #ff0000,
+            0.08em 0.08em #ff7f00,
+            0.12em 0.12em #ffff00,
+            0.16em 0.16em #00ff00,
+            0.20em 0.20em #0000ff,
+            0.24em 0.24em #4b0082,
+            0.28em 0.28em #8f00ff;
+    }
+}
+
+.text-black {
+    color: black;
+}
+
+.rainbow {
+    text-shadow: 2px 2px 4px #000000;
+    -webkit-animation: rainbow 5s infinite;
+    -ms-animation: rainbow 5s infinite;
+    animation: rainbow 5s infinite;
+}
+
+@keyframes rainbow {
+    0% {
+        color: orange;
+    }
+
+    10% {
+        color: purple;
+    }
+
+    20% {
+        color: red;
+    }
+
+    30% {
+        color: CadetBlue;
+    }
+
+    40% {
+        color: yellow;
+    }
+
+    50% {
+        color: coral;
+    }
+
+    60% {
+        color: green;
+    }
+
+    70% {
+        color: cyan;
+    }
+
+    80% {
+        color: DeepPink;
+    }
+
+    90% {
+        color: DodgerBlue;
+    }
+
+    100% {
+        color: orange;
+    }
+}
+
+@-webkit-keyframes rainbow {
+    0% {
+        color: orange;
+    }
+
+    10% {
+        color: purple;
+    }
+
+    20% {
+        color: red;
+    }
+
+    30% {
+        color: CadetBlue;
+    }
+
+    40% {
+        color: yellow;
+    }
+
+    50% {
+        color: coral;
+    }
+
+    60% {
+        color: green;
+    }
+
+    70% {
+        color: cyan;
+    }
+
+    80% {
+        color: DeepPink;
+    }
+
+    90% {
+        color: DodgerBlue;
+    }
+
+    100% {
+        color: orange;
+    }
 }

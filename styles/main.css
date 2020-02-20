@@ -1,6 +1,6 @@
 @font-face {
     font-family: "f13";
-    src: url("https://bawdycaste.com/styles/F13.ttf") format("truetype");
+    src: url("/styles/F13.ttf") format("truetype");
 }
 
 @font-face {
@@ -10,27 +10,28 @@
 
 @font-face {
     font-family: "sbitn";
-    src: url("https://bawdycaste.com/styles/SBITN.ttf") format("truetype");
+    src: url("/styles/SBITN.ttf") format("truetype");
 }
 
-@font-face {
-    font-family: "ss";
-    src: url("https://bawdycaste.com/styles/SS.ttf") format("truetype");
-}
 
 @font-face {
     font-family: "fofbb";
-    src: url("https://bawdycaste.com/styles/FOFBB.ttf") format("truetype");
+    src: url("/styles/FOFBB.ttf") format("truetype");
 }
 
 @font-face {
-    font-family: TBL;
+    font-family: "TBL";
     src: url("/styles/TBL.ttf") format("truetype");
 }
 
 @font-face {
-    font-family: TBL_1;
-    src: url(/styles/TBL_1.TTF) format("truetype");
+    font-family: "TBL_1";
+    src: url("/styles/TBL_1.TTF") format("truetype");
+}
+
+@font-face {
+    font-family: "ss";
+    src: url("/styles/SS.ttf") format("truetype");
 }
 
 body {
@@ -55,57 +56,6 @@ body {
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
 }
-
-img.absolute_1 {
-    position: absolute;
-    top: 20rem;
-    right: 10rem;
-    z-index: 1;
-}
-
-img.absolute_2 {
-    position: absolute;
-    top: 15rem;
-    right: 3rem;
-    z-index: 1;
-}
-
-img.absolute_3 {
-    position: absolute;
-    top: 10rem;
-    right: 23rem;
-    z-index: 1;
-}
-
-img.absolute_4 {
-    position: absolute;
-    top: 14rem;
-    right: 27em;
-    z-index: 2;
-}
-
-img.absolute_5 {
-    position: absolute;
-    top: 8rem;
-    right: 1rem;
-    z-index: 1;
-}
-
-img.absolute_6 {
-    position: absolute;
-    right: 5rem;
-    z-index: 1;
-}
-
-img.absolute_7 {
-    position: absolute;
-    top: 5rem;
-    right: 20rem;
-    z-index: 1;
-    animation-delay: 500ms;
-    animation-direction: alternate-reverse;
-}
-
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
 
@@ -211,6 +161,10 @@ button {
 
 .fofbb {
     font-family: "fofbb";
+}
+
+.ss{
+    font-family: "ss";
 }
 
 h1,
@@ -392,4 +346,8 @@ hr.style-five:after {
       0.24em 0.24em #4b0082,
       0.28em 0.28em #8f00ff;
   }
+}
+
+.text-black{
+    color:black;
 }

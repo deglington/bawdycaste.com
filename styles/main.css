@@ -350,9 +350,9 @@ hr.style-five:after {
     }
     100% {
       -webkit-transform: translateY(5%) rotateX(90deg);
-              transform: translateY(5%) rotateX(90deg);
+      transform: translateY(5%) rotateX(90deg);
     }
   }
-  .slide-rotate-hor-bottom:hover
-  {animation:disabled;}
+  .slide-rotate-hor-bottom:hover{animation:disabled;}
   
+p{font-size: 1.4rem;}

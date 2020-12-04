@@ -1,10 +1,5 @@
-## humans who works on this site:
-- jack k (original design)
-- chris g (project lead)
-- rob h (project dev)
-- jaison b (project dev)
-
-## active cast members, last updated 2020-march-16:
+## active cast members, last updated 2020-dec-03:
+Alex M
 Alexandra
 Alice
 Angie
@@ -14,16 +9,12 @@ Dan-o
 Danny S
 David B
 Douglas S
-Hannah B
-Hannah F
-Ira
+Ira E
 James S
 Jeb P
 Julie S
 Justice K
-Katie M
 Ken S
-Kora S
 Lisa S
 Michael B
 Michael D
@@ -31,8 +22,7 @@ Nina L
 Richard D
 Rob H
 Robbie E
-Alex M
 Sean G
 Siobhan T
 Sonja E
-Zach Clynne
+Zach C

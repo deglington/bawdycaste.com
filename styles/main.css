@@ -37,7 +37,26 @@
 body {
     background-color: rgba(0, 0, 0, 1);
     color: rgba(225, 0, 0, .97);
-    .fofbb {font-family: "fofbb";}
+}
+
+
+.text-red{color: rgba(225, 0, 0, .97) !important;}
+.text-rainbow {
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+.text-rainbow-2{
+    background-image: 
+      linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;  
+    animation: move 1000s linear infinite;
+}
+@keyframes move {
+	to {
+		background-position: 4500vh;
+	}
 }
 
 p{font-size: 1.62em;}
